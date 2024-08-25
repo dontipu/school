@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUNBEAM ACADEMY</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"> <img src="./eduford_img/logo.jpeg" alt="" /></a>
+        <div class="nav-links" id="navelinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blogs.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="ShowMenu()"></i>
+      </nav>
+
+      <h1>About Us</h1>
+    </section>
+
+    <!-- about us content -->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the world's largest School</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cum
+            totam, eaque alias facilis vitae vero mollitia optio adipisci
+            facere, laboriosam error quos consequatur! Ullam quaerat, animi
+            totam at asperiores voluptates soluta tempora expedita quis?
+            Necessitatibus asperiores dolores ut dicta error odit saepe
+            repellendus laudantium. Incidunt esse debitis fugit? Ducimus esse
+            distinctio consequuntur corrupti nam repudiandae possimus, ipsam in
+            quis?
+          </p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="./eduford_img/about.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+        asperiores sed iste qui, quasi assumenda culpa maiores necessitatibus
+        atque nesciunt.
+      </p>
+      <div class="icons">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <p>Made with <i class="fa fa-heart-o">By Ashish Raj</i></p>
+      </div>
+    </section>
+    <script>
+      var navelinks = document.getElementById("navelinks");
+      function ShowMenu() {
+        navelinks.style.right = "0";
+      }
+      function hideMenu() {
+        navelinks.style.right = "200px";
+      }
+    </script>
+  </body>
+</html>

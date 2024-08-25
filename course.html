@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUNBEAM ACADEMY</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"> <img src="./eduford_img/logo.jpeg" alt="" /></a>
+        <div class="nav-links" id="navelinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blogs.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="ShowMenu()"></i>
+      </nav>
+
+      <h1>Our Corses</h1>
+    </section>
+
+    <!-- Courses -->
+    <section class="Course">
+      <h1>Courses we Offer</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+        non dolore at sed corrupti ullam totam omnis et a sequi vero nisi,
+        deserunt labore hic impedit veritatis vitae. Tempora, delectus.
+      </p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            labore ipsum delectus, nulla fuga aliquid hic ut. Distinctio
+            tempore, eum accusantium qui odio neque beatae at nemo. Officiis, ea
+            et?
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Dergee</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            labore ipsum delectus, nulla fuga aliquid hic ut. Distinctio
+            tempore, eum accusantium qui odio neque beatae at nemo. Officiis, ea
+            et?
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Posr Gradution</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            labore ipsum delectus, nulla fuga aliquid hic ut. Distinctio
+            tempore, eum accusantium qui odio neque beatae at nemo. Officiis, ea
+            et?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facititles -->
+
+    <section class="Facititles">
+      <h1>Our Facititles</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium,
+        ipsa.
+      </p>
+      <div class="row">
+        <div class="facitiles-col">
+          <img src="./eduford_img/library.png" />
+          <h3>World Class libarary</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            deleniti possimus exercitationem.
+          </p>
+        </div>
+        <div class="facitiles-col">
+          <img src="./eduford_img/basketball.png" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            deleniti possimus exercitationem.
+          </p>
+        </div>
+        <div class="facitiles-col">
+          <img src="./eduford_img/cafeteria.png" />
+          <h3>Tasty and Healthy Food</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            deleniti possimus exercitationem.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <h4></h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+        asperiores sed iste qui, quasi assumenda culpa maiores necessitatibus
+        atque nesciunt.
+      </p>
+      <div class="icons">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <p>Made with <i class="fa fa-heart-o">By Ashish Raj</i></p>
+      </div>
+    </section>
+    <script>
+      var navelinks = document.getElementById("navelinks");
+      function ShowMenu() {
+        navelinks.style.right = "0";
+      }
+      function hideMenu() {
+        navelinks.style.right = "200px";
+      }
+    </script>
+  </body>
+</html>
